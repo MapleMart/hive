@@ -21,7 +21,7 @@ public class UvHiveJdbc
 				Class.forName("org.apache.hive.jdbc.HiveDriver");
 				System.out.println("-------");
 //				conn = DriverManager.getConnection("jdbc:hive://192.168.1.21:10000/log", "", "");1.2.1以下版本用的
-				conn = DriverManager.getConnection("jdbc:hive2://192.168.1.21:10000/log", "", "");
+				conn = DriverManager.getConnection("jdbc:hive2://master:10000/default", "", "");
 				System.out.println("ok");
 			}
 			catch (Exception e)

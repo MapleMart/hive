@@ -15,7 +15,6 @@ public class MyUDAF extends UDAF
 
 		// 负责初始化计算函数并设置它的内部状态，
 		// result是存放最终结果的
-		@Override
 		public void init()
 		{
 			result = null;
